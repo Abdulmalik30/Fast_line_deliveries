@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="flex h-screen w-full gap-7">
+    <article class="mx-4 w-1/2">
+      <h1>
+        <img src="./images/efficient-removebg-preview.png" alt="logo" />
+      </h1>
+      <hr class="h-[3px] w-full bg-[#131313]" />
+      <section>
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">1</span>
+          <h2 class="text-2xl font-bold">From</h2>
+          <span>(Sender's information)</span>
+        </div>
+        <form class="flex flex-col gap-3">
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="date" class="pl-2 opacity-70">Date</label>
+            <input type="datetime" id="date" class="border-none outline-none" />
+
+            <label for="AWB" class="pl-2 opacity-70">AWB</label>
+            <input type="number" id="AWB" class="border-none outline-none" />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="name" class="pl-2 opacity-70">Sender's Name</label>
+            <input type="datetime" id="name" class="border-none outline-none" />
+
+            <label for="phone" class="pl-2 opacity-70">Phone</label>
+            <input type="tel" id="phone" class="border-none outline-none" />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="company" class="pl-2 opacity-70">Company</label>
+            <input type="text" id="company" class="border-none outline-none" />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="Address" class="pl-2 opacity-70">Address</label>
+            <input
+              type="text"
+              id="Address"
+              class="w-[80%] border-none outline-none"
+            />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="City" class="pl-2 opacity-70">City</label>
+            <input type="text" id="City" class="border-none outline-none" />
+
+            <label for="State/Province" class="pl-2 opacity-70"
+              >State/Province</label
+            >
+            <input
+              type="text"
+              id="State/Province"
+              class="border-none outline-none"
+            />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="City" class="pl-2 opacity-70">City</label>
+            <input type="text" id="City" class="border-none outline-none" />
+
+            <label for="State/Province" class="pl-2 opacity-70"
+              >State/Province</label
+            >
+            <input
+              type="text"
+              id="State/Province"
+              class="border-none outline-none"
+            />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="Country" class="pl-2 opacity-70">Country</label>
+            <input type="text" id="Country" class="border-none outline-none" />
+
+            <label for="Zip-code" class="pl-2 opacity-70">Zip code</label>
+            <input type="text" id="Zip-code" class="border-none outline-none" />
+            <br />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="pl-2 opacity-70 outline-none"
+            />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="Reference" class="pl-2 opacity-70">Reference</label>
+            <input
+              type="number"
+              id="Reference"
+              class="w-[80%] border-none outline-none"
+            />
+          </section>
+        </form>
+        <br />
+        <hr class="h-[3px] w-full bg-[#131313]" />
+
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">2</span>
+          <h2 class="text-2xl font-bold">To</h2>
+          <span>(reciever's information)</span>
+        </div>
+        <form class="flex flex-col gap-3">
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="Reciever's_Name" class="pl-2 opacity-70"
+              >Reciever's Name</label
+            >
+            <input
+              type="text"
+              id="Reciever's_Name"
+              class="border-none outline-none"
+            />
+
+            <label for="Phone2" class="pl-2 opacity-70">Phone</label>
+            <input type="number" id="Phone2" class="border-none outline-none" />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="company" class="pl-2 opacity-70">Company</label>
+            <input type="text" id="company" class="border-none outline-none" />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="Address" class="pl-2 opacity-70">Address</label>
+            <input
+              type="text"
+              id="Address"
+              class="w-[80%] border-none outline-none"
+            />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="City" class="pl-2 opacity-70">City</label>
+            <input type="text" id="City" class="border-none outline-none" />
+
+            <label for="State/Province" class="pl-2 opacity-70"
+              >State/Province</label
+            >
+            <input
+              type="text"
+              id="State/Province"
+              class="border-none outline-none"
+            />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="City" class="pl-2 opacity-70">City</label>
+            <input type="text" id="City" class="border-none outline-none" />
+
+            <label for="State/Province" class="pl-2 opacity-70"
+              >State/Province</label
+            >
+            <input
+              type="text"
+              id="State/Province"
+              class="border-none outline-none"
+            />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="Country" class="pl-2 opacity-70">Country</label>
+            <input type="text" id="Country" class="border-none outline-none" />
+
+            <label for="Zip-code" class="pl-2 opacity-70">Zip code</label>
+            <input type="text" id="Zip-code" class="border-none outline-none" />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              s
+              class="pl-2 opacity-70 outline-none"
+            />
+          </section>
+        </form>
+
+        <div class="flex items-center gap-2">
+          <span class="text-2xl">3</span>
+          <h3 class="text-2xl font-bold">Shipment information</h3>
+          <!-- <span>(reciever's information)</span> -->
+        </div>
+        <form class="flex flex-col gap-3">
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="Departure" class="pl-2 opacity-70">Departure</label>
+            <input
+              type="datetime"
+              id="Departure"
+              class="border-none outline-none"
+            />
+
+            <label for="Arrival" class="pl-2 opacity-70">Arrival</label>
+            <input
+              type="datetime"
+              id="Arrival"
+              class="border-none outline-none"
+            />
+          </section>
+
+          <section class="w-full gap-4 border-b border-b-black">
+            <label for="Trans-route_schedule" class="pl-2 opacity-70"
+              >Trans-route Schedule</label
+            >
+            <input
+              type="text"
+              id="Trans-route_schedule"
+              class="border-none outline-none"
+            />
+          </section>
+
+          <section>
+            <label for="Package_Description" class="pl-2 opacity-70"
+              >Package Description</label
+            >
+            <br />
+            <input
+              type="text"
+              id="Package_Description"
+              class="w-[100%] border"
+            />
+          </section>
+        </form>
+        <section class="w-full gap-4 border-b border-b-black">
+          <label for="Package_Type" class="pl-2 opacity-70">Package Type</label>
+          <input
+            type="text"
+            id="Package_Type"
+            class="border-none outline-none"
+          />
+        </section>
+      </section>
+    </article>
+
+    <article class="flex w-1/2 flex-col">
+      <div class="w-full bg-[#acfc84] p-2 text-right text-2xl text-white">
+        <h2 class="mr-11">Sender's Copy</h2>
+      </div>
+      <section class="bg-[#fcf5a7]">
+        <section class="flex h-20 w-full items-center justify-center gap-2">
+          <p class="bg-[#ec8f4d] p-2 text-2xl text-white">AWB</p>
+          <p class="bg-[#ec8f4d] p-2 text-2xl text-white">
+            <!-- AWB value -->
+          </p>
+        </section>
+        <p class="mx-auto w-2/3 text-[#ec8f4d]">
+          Track your Shipment with AWB at
+          <a href="http:fastlinedeliveries.com/track-your-shipment"
+            >http:fastlinedeliveries.com/track-your-shipment</a
+          >
+        </p>
+        <hr class="h-[3px] w-full bg-[#131313]" />
+
+        <section class="flex flex-col">
+          <div class="flex items-center gap-2">
+            <span class="text-2xl">4a</span>
+            <h3 class="text-2xl font-bold">Express Package Service</h3>
+          </div>
+          <span class="mb-4 ml-8 text-[#ec8f4d]">
+            NOTE: Level of priority is always considered</span
+          >
+
+          <section
+            class="ml-8 mb-8 flex gap-4 border-b border-black text-black opacity-70"
+          >
+            <input type="checkbox" id="fast_line_economy" class="h-4 w-4" />
+            <label for="fast_line_economy">Fast Line Economy</label>
+
+            <input type="checkbox" id="priority" class="h-4 w-4" />
+            <label for="fast_line_priority">Fast Line Priority</label>
+          </section>
+        </section>
+        <hr class="h-[3px] w-full bg-[#131313]" />
+
+        <section class="flex flex-col">
+          <div class="mb-6 flex items-center gap-2">
+            <span class="text-2xl">4b</span>
+            <h3 class="text-2xl font-bold">Express Foreign Service</h3>
+          </div>
+
+          <section
+            class="ml-8 mb-8 flex gap-4 border-b border-black text-black opacity-70"
+          >
+            <input type="checkbox" id="Economy_Freight" class="h-4 w-4" />
+            <label for="Economy_Freight">Economy Freight</label>
+
+            <input type="checkbox" id="Priority_Freight" class="h-4 w-4" />
+            <label for="Priority_Freight"> Priority Freight</label>
+          </section>
+        </section>
+        <hr class="h-[3px] w-full bg-[#131313]" />
+
+        <section class="flex flex-col">
+          <div class="mb-6 flex items-center gap-2">
+            <span class="text-2xl">5</span>
+            <h3 class="text-2xl font-bold">Packaging</h3>
+          </div>
+
+          <section
+            class="ml-8 mb-8 flex gap-4 border-b border-black text-black opacity-70"
+          >
+            <input type="checkbox" id="fast_line_envelope" class="h-4 w-4" />
+            <label for="fast_line_envelope">Fast Line Envelope</label>
+
+            <input type="checkbox" id="fast_line_box" class="h-4 w-4" />
+            <label for="fast_line_box"> fast_line_box</label>
+          </section>
+
+          <section
+            class="ml-8 mb-8 flex gap-4 border-b border-black text-black opacity-70"
+          >
+            <input type="checkbox" id="fast_line_tube" class="h-4 w-4" />
+            <label for="fast_line_tube">Fast Line Tube</label>
+
+            <input type="checkbox" id="others" class="h-4 w-4" />
+            <label for="others"> others</label>
+          </section>
+        </section>
+        <hr class="h-[3px] w-full bg-[#131313]" />
+
+        <section class="flex flex-col">
+          <div class="mb-6 flex items-center gap-2">
+            <span class="text-2xl">6</span>
+            <h3 class="text-2xl font-bold">
+              Special Handling and Delivery Option
+            </h3>
+          </div>
+
+          <section
+            class="ml-8 mb-8 flex gap-4 border-b border-black text-black opacity-70"
+          >
+            <input type="checkbox" id="pickup_at_location" class="h-4 w-4" />
+            <label for="pickup_at_location">PICKUP at Location Delivery</label>
+
+            <input type="checkbox" id="SATURDAY" class="h-4 w-4" />
+            <label for="SATURDAY"> SATURDAY</label>
+          </section>
+
+          <section
+            class="ml-8 mb-8 flex gap-4 border-b border-black text-black opacity-70"
+          >
+            <input type="checkbox" id="sunday" class="h-4 w-4" />
+            <label for="sunday">SUNDAY</label>
+
+            <input type="checkbox" id="Normal" class="h-4 w-4" />
+            <label for="Normal"> Normal</label>
+          </section>
+        </section>
+        <hr class="h-[3px] w-full bg-[#131313]" />
+
+        <section class="flex flex-col">
+          <div class="mb-6 flex items-center gap-2">
+            <span class="text-2xl">7</span>
+            <h3 class="text-2xl font-bold">Agreement</h3>
+          </div>
+
+          <section
+            class="ml-8 mb-8 flex gap-4 border-b border-black text-black opacity-70"
+          >
+            <p>
+              This is to certify that Fast LIne Deliveries has collected the
+              consignment described in this slip from the "Sender" and has
+              accepted to deliver it to the "Reciever" to the address given by
+              the Consigner. This parcel is carried under Fast Line Deliveries.
+              This agreement herein is valid, correct and binding on the
+              parties. Alteratin on this Airway Bill of fast Line after it has
+              been duly issued and accepted renders this parcel valueness, null
+              and void.
+            </p>
+          </section>
+        </section>
+        <!-- <hr class="h-[3px] w-full bg-[#131313]" /> -->
+      </section>
+    </article>
+  </body>
+</html>
